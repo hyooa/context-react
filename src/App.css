@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+/* dark */
+.header.dark {
+  background: black;
+  color: #fff;
+}
+.header ul {
+  display: flex;
+}
+.header li {
+  padding: 0 20px;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.content {
+  height: 700px;
+  padding-top: 100px;
+}
+/* dark */
+.content.dark {
+  background: #666;
+  color: #fff;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+.footer {
+  border-top: 1px solid #ccc;
+  padding: 30px;
+  height: 100px;
+}
+/* dark */
+.footer.dark {
+  background: #333;
+  color: #fff;
+}
+.footer button {
+  outline: none;
+  padding: 10px 20px;
+}
+/* dark */
+.footer.dark button {
+  background: #eee;
+}
